@@ -160,7 +160,7 @@ Let edit the redis pod replica to zero, to see if the redis-exporter will be tri
 
 ![image](https://github.com/Taiwolawal/Prometheus-and-Grafana/assets/50557587/03f9f1ea-0c0b-4a4d-aac4-0598bd212fba)
 
-Now lets try and create a dashboard for our redis application, we can make use of ready made dashboards from [Grafana](https://grafana.com/grafana/dashboards/), we will be making use on one of the numerous dashoard for [Redis]( https://grafana.com/grafana/dashboards/11835-redis-dashboard-for-prometheus-redis-exporter-helm-stable-redis-ha/)
+Now lets try and create a dashboard for our redis application. We can make use of ready made dashboards from [Grafana](https://grafana.com/grafana/dashboards/), we will be making use on one of the numerous dashoard for [Redis]( https://grafana.com/grafana/dashboards/11835-redis-dashboard-for-prometheus-redis-exporter-helm-stable-redis-ha/)
 
 Copy the ID number and import the dashboard in grafana using the number, ensure you select data source as prometheus.
 
